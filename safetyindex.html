@@ -20,31 +20,32 @@
 
   <body>
   
- 
- <!-- nav beginning -->
-  <nav class="navbar navbar-fixed-top p-y">
-  <div class="container">
+  <div class="stage">
+
+<div class="stage-shelf stage-shelf-right">
+              <div class="container text-left" style="padding-left: 240px">
+              <ul class="nav nav-pills nav-stacked">
+  <li role="presentation"><a href="index.html">Home</a></li>
+  <li role="presentation"><a href="news.html">News</a></li>
+  <li role="presentation"><a href="resume.html">Resume</a></li>
+  <li role="presentation"><a href="videos.html">Video</a></li>
+  <li role="presentation"><a href="photos.html">Photo</a></li>
+  <li role="presentation"><a href="press.html">Press Selection</a></li>
+  <li role="presentation"><a href="index.html#agent">Contact</a></li>
+</ul>
+ </div>
+ </div>
+
+   <nav class="navbar navbar-fixed-top p-y">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed btn-primary-outline" data-toggle="collapse" data-target="#navbar-collapse-com">
-          <span class="icon icon-menu"> Menu </span>
-        </button>
-        <a class="navbar-brand" href="index.html">
-          <h4 class="text-uppercase m-y-0">Mera Mayde</h4>
-        </a>
-      </div>
-      <div class="navbar-collapse collapse" id="navbar-collapse-com">
-        <ul class="nav navbar-nav navbar-right">       
-          <li><a href="news.html">News</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="videos.html">Video</a></li>
-          <li><a href="photos.html">Photo</a></li>
-          <li><a href="press.html">Press Selection</a></li>
-          <li><a href="index.html#agent">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- nav end -->
+        <h4 class="navbar-brand text-uppercase m-y-0 p-y-0 p-x">Mera Mayde</h4>
+        <button class="btn btn-link stage-toggle stage-toggle-right" data-target=".stage" data-toggle="stage" data-distance="-250">
+        <img src="images/logo.png" alt="M" class="img-responsive" style="display: inline; width: 25px">
+        <span class="icon icon-menu"></span>
+  </button>
+      </div>  
+            </nav>
+ 
 
 
 <div class="block block-fill-height text-center" style="background-image: url(images/indexbackscreen.jpg);">
@@ -83,7 +84,7 @@ EAM, 20 Bunhill Row, London, EC1Y 8UE, UK <br>
 </div>
 
   <!-- End of All other page content -->
-
+</div> <!-- End of Stage including page -->
 
     <!-- Include jQuery (required) and the JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
